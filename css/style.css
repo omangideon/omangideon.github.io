@@ -1,0 +1,79 @@
+/* this will style all list items */
+
+li {
+    float: right;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+
+/* This styles list items on navigation header */
+
+ul.nav1 li a {
+    display: block;
+    color: rgb(30, 61, 38);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/* this styles the entire header box */
+
+header {
+    border-width: medium;
+    border-color: indianred;
+    width: 960px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(251, 255, 252);
+}
+
+li .active {
+    color: rgb(192, 40, 252);
+}
+
+li a:hover {
+    color: rgb(1, 214, 252);
+}
+
+
+/* edits the graduate engineer h2 element */
+
+#grad_eng {
+    font-family: 'Beau Rivage', cursive;
+    font-stretch: extra-expanded;
+    font-size: 500%;
+    color: rgb(30, 61, 38);
+    background-color: mintcream;
+    width: 460px;
+}
+
+
+/* edits h1 name Gideon Omangi */
+
+#name {
+    font-family: 'Beau Rivage', cursive;
+    font-stretch: extra-expanded;
+    font-size: 500%;
+    color: rgb(30, 61, 38);
+    background-color: mintcream;
+    width: 460px;
+}
+
+footer {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+hr {
+    margin: 10px;
+    padding: 5px;
+    background-color: lightcoral;
+}
+
+div #image_right img {
+    overflow: hidden;
+    width: 460px;
+}
